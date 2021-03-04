@@ -24,7 +24,8 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="index.html"><img src="image/Logo.png" alt=""></a>
+                    <!-- <a class="navbar-brand logo_h" href="index.html"><img src="image/Logo.png" alt=""></a> -->
+                    <a href="index.html" class="font-weight-bold h5" style="color: #000">CloudRise Homes</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -58,10 +59,10 @@
             <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""></div>
             <div class="container">
                 <div class="page-cover text-center">
-                    <h2 class="page-cover-tittle">Gallery</h2>
+                    <h2 class="page-cover-tittle">SANGOTEDO</h2>
                     <ol class="breadcrumb">
                         <li><a href="index.html">Home</a></li>
-                        <li class="active">Gallery</li>
+                        <li class="active">Sangotedo</li>
                     </ol>
                 </div>
             </div>
@@ -71,86 +72,126 @@
         <!--================Breadcrumb Area =================-->
         <section class="gallery_area section_gap">
             <div class="container">
-                <div class="section_title text-center">
-                    <h2 class="title_color">CloudRise Homes Gallery</h2>
-                    <p>Who are in extremely love with eco friendly system.</p>
+                <div class="mb-4">
+                <h3 class="mt-4 title_color">FILTER NUMBER OF ROOMS</h3>
+                <!-- <button onclick="allRooms()" type="button" class="btn btn-info room-filter-button displayAllRooms">ALL</button> -->
+                <button onclick="fiveRoomsFilter()" type="button" class="btn btn-info room-filter-button buttonFive">5</button>
+                <button onclick="fourRoomsFilter()" type="button" class="btn btn-info room-filter-button buttonFour">4</button>
+                <button onclick="threeRoomsFilter()" type="button" class="btn btn-info room-filter-button buttonThree">3</button>
+                <button onclick="twoRoomsFilter()" type="button" class="btn btn-info room-filter-button buttonTwo">2</button>
+                <button onclick="oneRoomFilter()" type="button" class="btn btn-info room-filter-button buttonOne">1</button>
+
                 </div>
-                <div class="row imageGallery1" id="gallery">
-                    <div class="col-md-4 gallery_item">
-                        <div class="gallery_img">
-                            <img src="image/gallery/01.jpg" alt="">
-                            <div class="hover">
-                            	<a class="light" href="image/gallery/01.jpg"><i class="fa fa-expand"></i></a>
+
+          
+                <div id="allRoomsId"  class="row mb_30">
+                    <div class="fiveRooms col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room1.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">5</a>
                             </div>
+                            <a href="#"><h4 class="sec_h4">Double Deluxe Room</h4></a>
+                            <h5>$250<small>/night</small></h5>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery_item">
-                        <div class="gallery_img">
-                            <img src="image/gallery/02.jpg" alt="">
-                            <div class="hover">
-                            	<a class="light" href="image/gallery/02.jpg"><i class="fa fa-expand"></i></a>
+                    <div class="fiveRooms col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room2.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">5</a>
                             </div>
+                            <a href="#"><h4 class="sec_h4">Single Deluxe Room</h4></a>
+                            <h5>$200<small>/night</small></h5>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery_item">
-                        <div class="gallery_img">
-                            <img src="image/gallery/03.jpg" alt="">
-                            <div class="hover">
-                            	<a class="light" href="image/gallery/03.jpg"><i class="fa fa-expand"></i></a>
+
+                    <div class="fourRooms col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room3.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">4</a>
                             </div>
+                            <a href="#"><h4 class="sec_h4">Honeymoon Suit</h4></a>
+                            <h5>$750<small>/night</small></h5>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery_item">
-                        <div class="gallery_img">
-                            <img src="image/gallery/04.jpg" alt="">
-                            <div class="hover">
-                            	<a class="light" href="image/gallery/04.jpg"><i class="fa fa-expand"></i></a>
+                    <div class="fourRooms col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room4.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">4</a>
                             </div>
+                            <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
+                            <h5>$200<small>/night</small></h5>
                         </div>
                     </div>
-                    
-                    <div class="col-md-4 gallery_item">
-                        <div class="gallery_img">
-                            <img src="image/gallery/06.jpg" alt="">
-                            <div class="hover">
-                            	<a class="light" href="image/gallery/05.jpg"><i class="fa fa-expand"></i></a>
+
+                    <div class="threeRooms col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room4.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">3</a>
                             </div>
+                            <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
+                            <h5>$200<small>/night</small></h5>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery_item">
-                        <div class="gallery_img">
-                            <img src="image/gallery/05.jpg" alt="">
-                            <div class="hover">
-                            	<a class="light" href="image/gallery/06.jpg"><i class="fa fa-expand"></i></a>
+                    <div class="threeRooms col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room4.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">3</a>
                             </div>
+                            <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
+                            <h5>$200<small>/night</small></h5>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery_item">
-                        <div class="gallery_img">
-                            <img src="image/gallery/01-1.jpg" alt="">
-                            <div class="hover">
-                            	<a class="light" href="image/gallery/01-1.jpg"><i class="fa fa-expand"></i></a>
+
+                    <div class="twoRooms col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room4.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">2</a>
                             </div>
+                            <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
+                            <h5>$200<small>/night</small></h5>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery_item">
-                        <div class="gallery_img">
-                            <img src="image/gallery/02-1.jpg" alt="">
-                            <div class="hover">
-                            	<a class="light" href="image/gallery/02-1.jpg"><i class="fa fa-expand"></i></a>
+                    <div class="twoRooms col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room4.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">2</a>
                             </div>
+                            <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
+                            <h5>$200<small>/night</small></h5>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery_item">
-                        <div class="gallery_img">
-                            <img src="image/gallery/03-1.jpg" alt="">
-                            <div class="hover">
-                            	<a class="light" href="image/gallery/03-1.jpg"><i class="fa fa-expand"></i></a>
+                    <div class="oneRoom col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room4.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">1</a>
                             </div>
+                            <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
+                            <h5>$200<small>/night</small></h5>
                         </div>
                     </div>
+                    <div class="oneRoom col-lg-3 col-sm-6">
+                        <div class="accomodation_item text-center">
+                            <div class="hotel_img">
+                                <img src="image/room4.jpg" alt="">
+                                <a href="#" class="btn theme_btn button_hover">1</a>
+                            </div>
+                            <a href="#"><h4 class="sec_h4">Economy Double</h4></a>
+                            <h5>$200<small>/night</small></h5>
+                        </div>
+                    </div>
+                  
                 </div>
             </div>
+               
         </section>
         <!--================Breadcrumb Area =================-->
         
@@ -251,5 +292,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/stellar.js"></script>
         <script src="vendors/lightbox/simpleLightbox.min.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/cloudrise.js"></script>
     </body>
 </html>

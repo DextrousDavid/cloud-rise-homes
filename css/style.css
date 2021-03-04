@@ -33,6 +33,12 @@ Table of Content:
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.room-filter-button {
+  cursor: pointer;
+}
 .col-md-offset-right-1, .col-lg-offset-right-1 {
   margin-right: 8.33333333%;
 }
@@ -135,10 +141,6 @@ button:focus {
   }
 }
 
-.section_gap {
-  padding: 120px 0;
-}
-
 .d_flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,7 +159,8 @@ button:focus {
 }
 
 .section_title {
-  margin-bottom: 75px;
+  margin-top: 86px;
+  margin-bottom: 50px;
 }
 
 .section_title h2 {
@@ -593,8 +596,8 @@ button:focus {
 }
 
 .hotel_booking_table h2 {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 25px;
   color: #fff;
   text-transform: uppercase;
 }
